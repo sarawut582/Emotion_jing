@@ -1,0 +1,24 @@
+{
+    "classroom_id": "05-0404",
+    "timestamp": "2025-04-06 17:46:44",
+    "student_count": 2,
+    "session_id": "002",
+    "dominant_emotions": {
+        "neutral": 1,
+        "fear": 1
+    },
+    "angry_count": 166,
+    "disgust_count": 166,
+    "fear_count": 166,
+    "happy_count": 166,
+    "sad_count": 166,
+    "surprise_count": 166,
+    "neutral_count": 166,
+    "angry_confidence": 0.2838889644543465,
+    "disgust_confidence": 3.7050419140913443e-05,
+    "fear_confidence": 66.4488195983445,
+    "happy_confidence": 1.1352505702228373,
+    "sad_confidence": 3.433314579721912,
+    "surprise_confidence": 24.43607588459418,
+    "neutral_confidence": 4.262620227805416
+}

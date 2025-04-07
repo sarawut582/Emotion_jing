@@ -1,0 +1,23 @@
+{
+    "classroom_id": "05-0404",
+    "timestamp": "2025-04-06 16:28:37",
+    "student_count": 1,
+    "session_id": "002",
+    "dominant_emotions": {
+        "happy": 1
+    },
+    "angry_count": 250,
+    "disgust_count": 250,
+    "fear_count": 250,
+    "happy_count": 250,
+    "sad_count": 250,
+    "surprise_count": 250,
+    "neutral_count": 250,
+    "angry_confidence": 0.0,
+    "disgust_confidence": 0.0,
+    "fear_confidence": 0.0,
+    "happy_confidence": 0.0,
+    "sad_confidence": 0.0,
+    "surprise_confidence": 0.0,
+    "neutral_confidence": 0.0
+}

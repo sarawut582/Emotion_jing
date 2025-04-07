@@ -1,0 +1,22 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"              // เปลี่ยนจาก postgresql เป็น mysql
+  url      = env("DATABASE_URL")  // ไม่ต้องแก้บรรทัดนี้
+}
+
+model Emotion {
+  id          Int      @id @default(autoincrement())
+  emotionType String   @unique  // เพิ่ม @unique เพื่อไม่ให้ซ้ำกัน
+  count       Int      @default(1)
+  receivedAt  DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
